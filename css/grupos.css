@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    background-color: rgba(196, 209, 210, 0.824);
+    font-family: Oswald;
+    color: #000000;
+}
+
+.infoPaises {
+    position: relative;
+    font-family: "Roboto Mono";
+    font-size: 20px;
+}
+
+#grupo1 {
+    font-family: "Roboto Mono";
+    border: 0;
+    padding: 10px;
+    background-color: rgb(57, 101, 44);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#grupo2 {
+    font-family: "Roboto Mono";
+    border: 0;
+    padding: 10px;
+    background-color: rgb(171, 53, 24);
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+#grupo3 {
+    font-family: "Roboto Mono";
+    border: 0;
+    padding: 10px;
+    background-color: rgb(233, 219, 32);
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+
+#grupo4 {
+    font-family: "Roboto Mono";
+    border: 0;
+    padding: 10px;
+    background-color: rgb(64, 138, 235);
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+
+#grupo5 {
+   font-family: "Roboto Mono";
+    border: 0;
+    padding: 10px;
+    background-color: rgb(161, 83, 27);
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    top: 80px; 
+}
+
+#grupo6 {
+    font-family: "Roboto Mono";
+    border: 0;
+    padding: 10px;
+    background-color: rgb(73, 129, 218);
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    top: 100px;   
+}
