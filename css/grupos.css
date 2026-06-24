@@ -70,9 +70,93 @@ body {
     font-family: "Roboto Mono";
     border: 0;
     padding: 10px;
-    background-color: rgb(73, 129, 218);
+    background-color: rgb(118, 27, 117);
     border-radius: 10px;
     text-align: center;
     position: relative;
     top: 100px;   
+}
+
+#grupo7 {
+    font-family: "Roboto Mono";
+    color: aliceblue;
+    border: 0;
+    padding: 10px;
+    background-color: rgb(40, 59, 90);
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    top: 120px;   
+}
+
+#grupo8 {
+    font-family: "Roboto Mono";
+    border: 0;
+    padding: 10px;
+    background-color: rgb(156, 209, 82);
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    top: 140px;   
+}
+
+#grupo9 {
+    font-family: "Roboto Mono";
+    border: 0;
+    padding: 10px;
+    background-color: rgb(50, 197, 165);
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    top: 160px;   
+}
+
+#grupo10 {
+    font-family: "Roboto Mono";
+    border: 0;
+    padding: 10px;
+    background-color: rgb(229, 76, 94);
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    top: 180px;   
+}
+
+#grupo11 {
+    font-family: "Roboto Mono";
+    border: 0;
+    padding: 10px;
+    background-color: rgba(228, 174, 74, 0.89);
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    top: 200px;   
+}
+
+#grupo12 {
+    font-family: "Roboto Mono";
+    border: 0;
+    padding: 10px;
+    background-color: rgb(218, 133, 73);
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    top: 220px;   
+}
+
+header {
+    font-size: 35px;
+}
+
+#spanbtn {
+    position: relative;
+    left: 1345px;
+}
+
+#btnVoltar {
+    border: 0;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgba(240, 248, 255, 0.637);
+    cursor: pointer; 
 }
