@@ -1,13 +1,6 @@
 const btnGrupos = document.getElementById("btnGrupos");
-const btnVoltar = document.getElementById("btnVoltar");
 const btnEstatis = document.getElementById("btnEstatistica");
 const bntElimina = document.getElementById("bntEliminatorias");
-
-btnEstatis.addEventListener('click', () => {
-
-    document.location.href = "pages/estatisticas.html";
-
-});
 
 btnGrupos.addEventListener('click', () => {
 
@@ -16,12 +9,12 @@ btnGrupos.addEventListener('click', () => {
     return;
 });
 
-btnVoltar.addEventListener('click', () => {
+btnEstatis.addEventListener('click', () => {
 
-    document.location.href = "../index.html";
+    document.location.href = "pages/estatisticas.html";
 
-    return;
 });
+
 
 bntEliminatorias.addEventListener('click', () => {
 

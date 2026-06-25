@@ -6,7 +6,6 @@ body {
     color: #000000;
 }
 
-
 main {
     display: flex;
     justify-content: center;
@@ -31,6 +30,7 @@ main {
 
 .botao:hover {
     background-color: rgb(73, 116, 197);
+    padding: 30px;
 }
 
 footer {

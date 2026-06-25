@@ -222,7 +222,7 @@ header {
 
 #spanbtn {
     position: relative;
-    left: 1345px;
+    left: 1262px;
 }
 
 #btnVoltar {
@@ -230,5 +230,10 @@ header {
     padding: 15px;
     border-radius: 10px;
     background-color: rgba(240, 248, 255, 0.637);
-    cursor: pointer; 
+    cursor: pointer;
+    transition: 250ms;
+}
+
+#btnVoltar:hover {
+    background-color: rgb(201, 204, 207);
 }
