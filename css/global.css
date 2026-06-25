@@ -6,6 +6,14 @@ body {
     color: #000000;
 }
 
+header {
+    transition: 250ms;
+}
+
+header:hover {
+    font-size: 17px;
+}
+
 main {
     display: flex;
     justify-content: center;
@@ -39,4 +47,9 @@ footer {
     justify-content: center;
     align-items: center;
     height: 50px;
+    transition: 250ms;
+}
+
+footer:hover {
+    font-size: 17px;
 }

@@ -18,6 +18,19 @@ dialog {
     border-radius: 50px;
 }
 
+#voltarInicio {
+    border: 0;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    transition: 250ms;
+}
+
+#voltarInicio:hover {
+    padding: 7px;
+    background-color: rgb(205, 210, 215);
+}
+
 .buttons {
     padding: 10px;
     border-radius: 10px;
