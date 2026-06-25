@@ -19,6 +19,14 @@ body {
     border-radius: 10px;
     cursor: pointer;
     position: relative;
+    transition: 250ms;
+    width: 200px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.buttons:hover {
+    background-color: rgba(215, 218, 221, 0.913);
 }
 
 #dialogGols {
@@ -43,4 +51,36 @@ body {
     width: 200%;
     max-width: 400px;
     text-align: center;
+}
+
+#dialogCartoesA {
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: "Roboto Mono";
+    font-size: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 200%;
+    max-width: 400px;
+    text-align: center;
+}
+
+#dialogCartoesV {
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: "Roboto Mono";
+    font-size: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 200%;
+    max-width: 400px;
+    text-align: center;
+}
+
+#opcoesEs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 75vh;
 }

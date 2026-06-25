@@ -1,35 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 body {
-    background-color: cadetblue;
+    background: linear-gradient(45deg, #ccea36, #86fe7b);
     font-family: Oswald;
     color: #000000;
 }
 
-#spanLinks {
-    position: relative;
-    left: 73em;
-}
 
 main {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    height: 75vh;
 }
 
 
 .botao {
     background-color: cornflowerblue;
     border: 0;
-    border-radius: 10px;
-    padding: 5px;
+    border-radius: 20px;
+    padding: 20px;
     text-align: center;
     font-family: Oswald;
-    font-size: 50px;
+    font-size: 45px;
     cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 400px;
+    transition: 250ms;
+}
+
+.botao:hover {
+    background-color: rgb(73, 116, 197);
 }
 
 footer {
@@ -37,5 +38,5 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200px;
+    height: 50px;
 }
