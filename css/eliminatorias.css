@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    background-color: rgb(35, 122, 209);
+    font-family: Oswald;
+}
+
+header {
+    font-size: 25px;
+    font-family: "Roboto Mono";
+}
+
+.camps {
+    padding: 15px;
+    border: 0;
+    border-radius: 20px;
+    width: 100px;
+    color: aliceblue;
+    background-color: rgb(124, 124, 124);
+    transition: 250ms;
+}
+
+.camps:hover {
+    padding: 17px;
+}
+
+#camp16 {
+    position: relative;
+    left: 9em;
+    top: -157em;
+}
+
+#camp17 {
+    position: relative;
+    left: 9em;
+    top: -146em;
+}
+
+#camp18 {
+    position: relative;
+    left: 9em;
+    top: -134em;
+}
+
+#camp19 {
+    position: relative;
+    left: 9em;
+    top: -122em;
+}
+
+#camp20 {
+    position: relative;
+    left: 9em;
+    top: -111em;
+}
+
+#camp21 {
+    position: relative;
+    left: 9em;
+    top: -98em;
+}
+
+#camp22 {
+    position: relative;
+    left: 9em;
+    top: -82em;
+}
